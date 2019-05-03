@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,28 @@
   <link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
-<body>
-<h1>The biggest challenge of my teaching practice in the school makerspace is: (select maximam 3 challenges)</h1>
-<input type="checkbox" name="challenge" value="">coordinate with administrators<br>
 
-<script type="text/javascript" src="main.js">
-</script>
+<body>
+  <h1>The biggest challenge of my teaching practice in the school makerspace is: (select maximam 3 challenges)</h1>
+  <form method="post" id="theForm" action="/post">
+    <fieldset>
+      <input type="checkbox" name="challenge" value="pre1">coordinate with administrators<br>
+      <input type="checkbox" name="challenge" value="pre2">collabrate with teachers from multiple subjects<br>
+      <input type="checkbox" name="challenge" value="pre3">limited preparation time<br>
+      <input type="checkbox" name="challenge" value="">find reliable sources<br>
+      <input type="checkbox" name="challenge" value="pre4">difficult to address safety issues<br>
+      <input type="checkbox" name="challenge" value="on1">classroom management<br>
+      <input type="checkbox" name="challenge" value="on2">facilitate students<br>
+      <input type="checkbox" name="challenge" value="after1">exhibit students' work<br>
+      <input type="checkbox" name="challenge" value="after2">store students' work<br>
+      <input type="checkbox" name="challenge" value="after3">assess students' work<br>
+
+</fieldset>
+  </form>
+<button onclick="submitAnswer()">Submit!</button>
+
+  <script type="text/javascript" src="main.js">
+  </script>
 </body>
+
 </html>
