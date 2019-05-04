@@ -1,3 +1,5 @@
+
+
   var that = this;
 
 function submitAnswer(){
@@ -18,5 +20,4 @@ function submitAnswer(){
   } else {
     form.submit();
   }
-
 }
