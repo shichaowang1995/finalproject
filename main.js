@@ -15,7 +15,7 @@ function submitAnswer(){
     return false;
   }
   if(numberOfCheckedItems > 3){
-    alert("You can't select more than 3 challenges");
+    alert("Please select no more than 3 challenges");
     return false;
   } else {
     form.submit();
